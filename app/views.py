@@ -20,7 +20,7 @@ def profile():
         "bio": "Passionate software developer with a love for technology, problem-solving, and innovation. Experienced in Python, Flask, and Web Development. When I'm not coding, you can find me exploring cybersecurity trends, playing video games, or enjoying a good day doing absolutely nothing.",
         "posts": 55,
         "followers": 450,
-        "following": 171,
+        "following": 170,
         "profile_image": "profile.jpg"
     }
     return render_template('profile.html', profile=profile_info)
